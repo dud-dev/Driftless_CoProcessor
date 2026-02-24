@@ -1,0 +1,137 @@
+(footprint "MP1584"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7f2b4cc8-0ac9-4bf1-a2a1-60f76d86bc69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MP1584"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "454f7550-3b01-424b-968f-938dfde79cca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b9f645b-4383-490c-a9bb-bef512585387")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "897585df-28d3-42d1-8555-c8d074e3636d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.75 -3.25)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fa76d80c-340b-4094-814a-93979245e312")
+	)
+	(pad "1" smd roundrect
+		(at -2.25 -2.25)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "d38c6fab-c335-4617-80de-8d32f4c5ee12")
+	)
+	(pad "2" smd roundrect
+		(at -2.25 -0.75)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "3cb47393-35d2-4fb7-a66b-903f93a3ceb7")
+	)
+	(pad "3" smd roundrect
+		(at -2.25 0.75)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ec1dd1ed-9376-46ef-8d74-7fa103c23e04")
+	)
+	(pad "4" smd roundrect
+		(at -2.25 2.25)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "a5630f65-62e5-490f-a414-c535ed6ce68d")
+	)
+	(pad "5" smd roundrect
+		(at 2.25 2.25)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "54d3df51-08b6-44be-a692-ca977292b43f")
+	)
+	(pad "6" smd roundrect
+		(at 2.25 0.75)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "553fbb3f-b07d-48b0-bbf9-7525c27f0893")
+	)
+	(pad "7" smd roundrect
+		(at 2.25 -0.75)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "2dc1a495-f9c9-4e8b-9644-e4a569ea068e")
+	)
+	(pad "8" smd roundrect
+		(at 2.25 -2.25)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ae2f4aef-7241-429c-9364-bdedcced3cf8")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/sandm/OneDrive/Documents/VexU PushBack Custom PCB/Regulator.pretty/Chip_SMD_8PIN.STEP"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1.2 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
