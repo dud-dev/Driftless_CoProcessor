@@ -1843,6 +1843,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SMAJ6.5CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ6.5CA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 6.5Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ6.5CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ6.5CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_UART:MAX485E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5467,6 +5629,12 @@
 		(uuid "93fad8c2-3a26-4bc3-a88e-c29a8e66f45a")
 	)
 	(junction
+		(at 242.57 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a019f1da-876b-47b0-9ebc-b33e885ed11f")
+	)
+	(junction
 		(at 113.03 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5477,6 +5645,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa8f286c-e4e8-4069-8894-a8bcc46ec4f7")
+	)
+	(junction
+		(at 242.57 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a28573-28f7-4f1a-bc58-b2ab75ca2426")
 	)
 	(junction
 		(at 144.78 83.82)
@@ -6268,7 +6442,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 114.3) (xy 234.95 114.3)
+			(xy 233.68 114.3) (xy 242.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6478,7 +6652,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 109.22) (xy 234.95 109.22)
+			(xy 233.68 109.22) (xy 242.57 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6605,6 +6779,16 @@
 			(type default)
 		)
 		(uuid "7a822157-17a6-4b52-b3bf-d0f9d51ca3bd")
+	)
+	(wire
+		(pts
+			(xy 242.57 109.22) (xy 252.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6a9ebe-6530-4ba7-9587-28a9729d44d3")
 	)
 	(wire
 		(pts
@@ -7538,6 +7722,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 114.3) (xy 252.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa27e069-ab29-4cdf-90d9-975c18b0e43e")
+	)
+	(wire
+		(pts
 			(xy 66.04 26.67) (xy 63.5 26.67)
 		)
 		(stroke
@@ -7764,7 +7958,7 @@
 	)
 	(global_label "A"
 		(shape input)
-		(at 234.95 109.22 0)
+		(at 252.73 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7774,7 +7968,7 @@
 		)
 		(uuid "3f037a20-58e5-4ab0-b732-e628d2c4bda6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.0238 109.22 0)
+			(at 256.8038 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +8112,7 @@
 	)
 	(global_label "B"
 		(shape input)
-		(at 234.95 114.3 0)
+		(at 252.73 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7928,7 +8122,7 @@
 		)
 		(uuid "b2a096e5-a8fe-422c-9db7-40b68c004533")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.2052 114.3 0)
+			(at 256.9852 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,6 +8217,73 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "022aafb7-b6ab-4673-b0cc-033381d0128d")
+		(property "Reference" "#PWR033"
+			(at 242.57 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f6af01-c0b4-425b-becb-24efb3f997e2")
+		)
+		(instances
+			(project ""
+				(path "/a29a069e-e320-4c99-b39c-726cf56ff93e"
+					(reference "#PWR033")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9043,6 +9304,73 @@
 			(project ""
 				(path "/a29a069e-e320-4c99-b39c-726cf56ff93e"
 					(reference "C1A3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34752d19-a0bd-4102-ac49-61be84ec1d55")
+		(property "Reference" "#PWR034"
+			(at 242.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f6af01-c0b4-425b-becb-24efb3f997e2")
+		)
+		(instances
+			(project ""
+				(path "/a29a069e-e320-4c99-b39c-726cf56ff93e"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10407,6 +10735,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ6.5CA")
+		(at 242.57 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f39f3ae-33a1-43c9-8b06-ac1fae835e33")
+		(property "Reference" "D2"
+			(at 245.11 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ6.5CA"
+			(at 245.11 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 242.57 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 6.5Vr, SMA(DO-214AC)"
+			(at 242.57 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "460ad4f1-65f9-49c4-90bf-6ac9cd990488")
+		)
+		(pin "1"
+			(uuid "b4099671-f8bf-437e-9976-2e794d8d41fe")
+		)
+		(instances
+			(project ""
+				(path "/a29a069e-e320-4c99-b39c-726cf56ff93e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 118.11 44.45 0)
 		(unit 1)
@@ -10690,6 +11088,76 @@
 			(project "v0.5"
 				(path "/a29a069e-e320-4c99-b39c-726cf56ff93e"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ6.5CA")
+		(at 242.57 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d78e279-2d0f-4be0-b1f0-f4144a153a7c")
+		(property "Reference" "D3"
+			(at 245.11 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ6.5CA"
+			(at 245.11 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 247.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 6.5Vr, SMA(DO-214AC)"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "460ad4f1-65f9-49c4-90bf-6ac9cd990488")
+		)
+		(pin "1"
+			(uuid "b4099671-f8bf-437e-9976-2e794d8d41fe")
+		)
+		(instances
+			(project ""
+				(path "/a29a069e-e320-4c99-b39c-726cf56ff93e"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13275,7 +13743,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 30.48 160.02 0)
+		(at 30.48 162.56 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13283,7 +13752,7 @@
 		(dnp no)
 		(uuid "ec88cba9-0ea7-43b0-8094-8784dc42df87")
 		(property "Reference" "J1"
-			(at 30.48 155.956 0)
+			(at 30.48 166.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13291,7 +13760,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 22.606 165.1 0)
+			(at 22.606 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13299,7 +13768,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 30.48 160.02 0)
+			(at 30.48 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,7 +13777,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 160.02 0)
+			(at 30.48 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13317,7 +13786,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 30.48 160.02 0)
+			(at 30.48 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
