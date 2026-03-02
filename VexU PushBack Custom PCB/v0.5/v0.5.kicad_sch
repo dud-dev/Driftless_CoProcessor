@@ -5485,6 +5485,12 @@
 		(uuid "247dc898-b7d1-4ea3-829f-13db77dd10d4")
 	)
 	(junction
+		(at 242.57 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27f8e30a-f852-4a9f-8f88-16d353012918")
+	)
+	(junction
 		(at 181.61 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5645,12 +5651,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa8f286c-e4e8-4069-8894-a8bcc46ec4f7")
-	)
-	(junction
-		(at 242.57 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4a28573-28f7-4f1a-bc58-b2ab75ca2426")
 	)
 	(junction
 		(at 144.78 83.82)
@@ -5969,6 +5969,16 @@
 			(type default)
 		)
 		(uuid "06b7cb97-ad49-4330-90ae-9dfe7fa88802")
+	)
+	(wire
+		(pts
+			(xy 242.57 109.22) (xy 252.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fd365e-1839-417a-99e3-5284e6b375e6")
 	)
 	(wire
 		(pts
@@ -6779,16 +6789,6 @@
 			(type default)
 		)
 		(uuid "7a822157-17a6-4b52-b3bf-d0f9d51ca3bd")
-	)
-	(wire
-		(pts
-			(xy 242.57 109.22) (xy 252.73 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b6a9ebe-6530-4ba7-9587-28a9729d44d3")
 	)
 	(wire
 		(pts
@@ -9365,7 +9365,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5f6af01-c0b4-425b-becb-24efb3f997e2")
+			(uuid "f5f6af01-c0b4-425b-becb-24efb3f997e3")
 		)
 		(instances
 			(project ""
@@ -9811,7 +9811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1100"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1100P"
 			(at 140.97 165.1 0)
 			(effects
 				(font
@@ -11095,7 +11095,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ6.5CA")
-		(at 242.57 105.41 90)
+		(at 242.57 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11109,7 +11109,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SMAJ6.5CA"
@@ -11118,11 +11118,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 247.65 105.41 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,10 +11149,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "460ad4f1-65f9-49c4-90bf-6ac9cd990488")
+			(uuid "460ad4f1-65f9-49c4-90bf-6ac9cd990489")
 		)
 		(pin "1"
-			(uuid "b4099671-f8bf-437e-9976-2e794d8d41fe")
+			(uuid "b4099671-f8bf-437e-9976-2e794d8d41ff")
 		)
 		(instances
 			(project ""
