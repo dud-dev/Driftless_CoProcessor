@@ -8161,7 +8161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 26.67 90)
+		(at 69.85 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8169,7 +8169,7 @@
 		(dnp no)
 		(uuid "0ee28f67-3f09-4f22-95f1-dfe3d587c2c8")
 		(property "Reference" "R3"
-			(at 80.01 24.638 90)
+			(at 69.85 24.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8177,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 80.264 26.67 90)
+			(at 69.85 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,7 +8185,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.01 28.448 90)
+			(at 69.85 28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +8194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 26.67 0)
+			(at 69.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +8203,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 80.01 26.67 0)
+			(at 69.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11122,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 69.85 26.67 180)
+		(at 80.01 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11130,7 +11130,7 @@
 		(dnp no)
 		(uuid "aa09854c-1199-4a26-9ea3-d53b1aa7c402")
 		(property "Reference" "D1"
-			(at 71.4375 33.02 0)
+			(at 81.5975 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11138,7 +11138,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 71.4375 30.48 0)
+			(at 81.5975 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11146,7 +11146,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 69.85 26.67 0)
+			(at 80.01 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11155,7 +11155,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 26.67 0)
+			(at 80.01 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,7 +11164,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 69.85 26.67 0)
+			(at 80.01 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11173,7 +11173,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 26.67 0)
+			(at 80.01 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
