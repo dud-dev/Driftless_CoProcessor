@@ -9187,22 +9187,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "d9ab5737-71a3-458e-8f8a-97cec837b7b3")
+			(uuid "d9ab5737-71a3-458e-8f8a-97cec837b7b4")
 		)
 		(pin "2"
-			(uuid "d9c3331f-1215-4667-bf08-abae658ae774")
+			(uuid "d9c3331f-1215-4667-bf08-abae658ae775")
 		)
 		(pin "1"
-			(uuid "aaa400f5-b1c9-41e9-b176-0507a5becdec")
+			(uuid "aaa400f5-b1c9-41e9-b176-0507a5becded")
 		)
 		(pin "3"
-			(uuid "28354ede-a5fb-4ca1-8d6b-4c0c7bfe94ef")
+			(uuid "28354ede-a5fb-4ca1-8d6b-4c0c7bfe94f0")
 		)
 		(pin "NC1"
-			(uuid "f4503495-21e1-4db0-8dca-1e05f2052d5b")
+			(uuid "f4503495-21e1-4db0-8dca-1e05f2052d5c")
 		)
 		(pin "NC2"
-			(uuid "3c3082ce-7b44-441c-8178-977f2d46baac")
+			(uuid "3c3082ce-7b44-441c-8178-977f2d46baad")
 		)
 		(instances
 			(project ""
@@ -12117,16 +12117,16 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ6.5CA")
-		(at 242.57 107.95 270)
+		(at 242.57 107.95 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e75b47e6-1d8c-4b69-8d99-649ccb82e855")
 		(property "Reference" "D4"
-			(at 245.11 106.6799 90)
+			(at 240.03 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12135,7 +12135,7 @@
 			)
 		)
 		(property "Value" "SMAJ6.5CA"
-			(at 245.11 109.2199 90)
+			(at 240.03 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12144,7 +12144,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 237.49 107.95 0)
+			(at 247.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

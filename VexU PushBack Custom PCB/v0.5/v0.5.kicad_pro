@@ -56,9 +56,23 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.0,
+          "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "text_on_edge_cuts|122800000|94400000|f30502cd-9bec-4e51-bb83-3fcd7c1e62e9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_on_edge_cuts|85400000|25600000|1b46dee9-cd39-4bac-9b6e-8d1260b98df5|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
